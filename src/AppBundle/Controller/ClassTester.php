@@ -13,7 +13,7 @@ class ClassTester extends Controller
     /**
      * @Route("class_test/")
      */
-    public function showAction()
+    public function showAction()1
     {
         $xxx = new FirstClass();
         $xxx->setFcVar("10");
